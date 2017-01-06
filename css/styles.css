@@ -1,5 +1,11 @@
 body {
 	font-family: 'Nunito', sans-serif;
+	color: #666;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
 }
 
 li {
@@ -8,4 +14,12 @@ li {
 
 .clearfix {
 	clear: both;
+}
+
+/* HOME */
+
+.box-products h2 {
+	font-weight: 200;
+	font-size: 16px;
+	text-transform: uppercase;
 }
