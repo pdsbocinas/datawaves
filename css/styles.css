@@ -1,0 +1,11 @@
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+.clearfix {
+	clear: both;
+}
