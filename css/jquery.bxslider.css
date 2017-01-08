@@ -16,9 +16,10 @@
 
 .bx-wrapper {
 	position: relative;
-	margin: 0 auto 60px;
+	margin: 0;
 	padding: 0;
 	*zoom: 1;
+	max-width: 1300px;
 }
 
 .bx-wrapper img {
@@ -100,12 +101,12 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	background: url('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/images/controls.png') no-repeat 0 -32px;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/images/controls.png') no-repeat -43px -32px;
 }
 
 .bx-wrapper .bx-prev:hover {
