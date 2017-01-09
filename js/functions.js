@@ -9,4 +9,6 @@ $(document).ready(function(){
 	});
 
 	$('.bxslider-header').bxSlider();
+	$('.bxslider-empresa').bxSlider();
+	$('.bxslider-fases').bxSlider();
 });

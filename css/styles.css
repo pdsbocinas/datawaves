@@ -22,11 +22,17 @@ h2 {
 	font-weight: 200;
 	color: #001021;
 	margin: 100px 0 30px;
+	-webkit-font-smoothing: antialiased;
 }
 
 .table {
 	display: table;
-} 
+}
+
+.align {
+	display: table-cell;
+	vertical-align: middle;
+}
 
 .btn-border{
 	color: #02c099;
@@ -54,6 +60,12 @@ h2 {
     padding-right: 100px;
 }
 
+.paragraph-step {
+    font-size: 0.9em;
+    font-weight: 100;
+    padding-right: 40px;
+}
+
 .line-short {
 	width: 10%;
 	height: 2px;
@@ -74,6 +86,50 @@ h2 {
 .right {
 	float: right;
 }
+
+.left {
+	float: left;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.paragraph-internal.mb-90 {
+	margin-bottom: 90px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-60 {
+	margin-bottom: 60px;
+}
+
+.mr-25 {
+	margin-right: 25px;
+}
+
+.bg-green .m-30 {
+    margin: 15px 0 0px;
+}
+
+.height {
+	height: 290px;
+}
+
+.height-110 {
+	height: 110px;
+}
+
+.rotate-90 {
+	transform: rotate(-90deg);
+}    
 
 .sprite	 {
 	background: url("../images/sprite.png") no-repeat;
@@ -125,7 +181,7 @@ h2 {
 }
 
 .brandbox {
-	max-width: 228px;
+	max-width: 200px;
 	height: 41px;
 	display: block;
 }
@@ -366,6 +422,7 @@ a.box-products:hover h2 {
 
 .bg-black {
 	background: #000;
+	width: 40%;
 }
 
 .title-internal {
@@ -379,7 +436,8 @@ a.box-products:hover h2 {
 	font-size: 1.8em;
 	font-weight: 200;
 	text-transform: none;
-	margin: 0;
+	margin: 0 0 30px;
+    line-height: 33px;
 }
 
 .paragraph-internal {
@@ -388,6 +446,22 @@ a.box-products:hover h2 {
     line-height: normal;
     margin-bottom: 20px;
     padding-right: 140px;
+    font-weight: 100;
+}
+
+.normas {
+	display: flex;
+	width: 100%;
+    margin: 30px 0 100px;
+}
+
+.normas li {
+    display: inline-block;
+    margin-right: 65px;
+}
+
+.box-products.align {
+	display: table-cell;
 }
 
 /* FOOTER */
