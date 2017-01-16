@@ -11,4 +11,9 @@ $(document).ready(function(){
 	$('.bxslider-header').bxSlider();
 	$('.bxslider-empresa').bxSlider();
 	$('.bxslider-fases').bxSlider();
+	
+	$('#nav-icon2').click(function(){
+		$(this).toggleClass('open');
+	});
+	
 });
