@@ -88,6 +88,12 @@ h2 {
 
 .line-long {
 	width: 100%;
+	height: 1px;
+	background: #02c099;
+}
+
+.line-header {
+	width: 100%;
 	height: 2px;
 	background: #02c099;
 }
@@ -245,12 +251,12 @@ header ul.right li {
     position: relative;
 }
 
-header ul.right li .line-long {
+header ul.right li .line-header {
 	transition: all 0.3s ease-in-out;
 	width: 0%;
 }
 
-header ul.right li:hover .line-long {
+header ul.right li:hover .line-header {
 	width: 100%;
 }
 
@@ -527,6 +533,30 @@ a.box-products:hover h2 {
 
 .boxes-green .bg-green img {
 	margin-bottom: 25px;
+}
+
+.projects h3 {
+	padding: 10px 30px;
+    border: 1px solid #001021;
+    display: inline-block;
+    opacity: .35;
+    margin-bottom: 30px;
+    font-size: 1.6em;
+}
+
+.projects .content-client {
+    margin-bottom: 40px;
+    overflow: hidden;
+    clear: both;
+}
+
+.projects p {
+	font-weight: 100;
+}
+
+.projects .line-long {
+	margin: 40px 0;
+	clear: both;
 }
 
 /* CONTACTO - FORMULARIO */
