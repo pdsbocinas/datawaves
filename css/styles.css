@@ -650,30 +650,6 @@ a.box-products:hover h2 {
 	margin-bottom: 25px;
 }
 
-.projects h3 {
-	padding: 10px 30px;
-    border: 1px solid #001021;
-    display: inline-block;
-    opacity: .35;
-    margin-bottom: 30px;
-    font-size: 1.6em;
-}
-
-.projects .content-client {
-    margin-bottom: 40px;
-    overflow: hidden;
-    clear: both;
-}
-
-.projects p {
-	font-weight: 100;
-}
-
-.projects .line-long {
-	margin: 40px 0;
-	clear: both;
-}
-
 .bg-grey {
 	background: #f3f3f3;
 }
@@ -734,6 +710,30 @@ table .bg-green p {
 
 .border-orange-dark {
 	border: 1px solid #dda647;
+}
+
+.projects h3 {
+	padding: 10px 30px;
+    border: 1px solid #001021;
+    display: inline-block;
+    opacity: .35;
+    margin-bottom: 30px;
+    font-size: 1.6em;
+}
+
+.projects .content-client {
+    margin-bottom: 40px;
+    overflow: hidden;
+    clear: both;
+}
+
+.projects p {
+	font-weight: 100;
+}
+
+.projects .line-long {
+	margin: 40px 0;
+	clear: both;
 }
 
 /* CONTACTO - FORMULARIO */
@@ -845,12 +845,64 @@ footer .line-long {
 		display: block;
 	}
 
-	.menu-mobile ul.right {
-		display: none;
+	.mobile {
+		display: block;
 	}
 
 	.desktop {
 		display: none;
+	}
+
+	.bg-green-nav {
+		padding: 13px 0;
+	}
+
+	.bg-green-nav ul li p {
+		font-size: 0.7em;
+	}
+
+	header #nav-icon2 {
+		top: -55px;
+		right: 16px;
+	}
+
+	#nav-icon2.open {
+		top: -67px;
+	}
+
+	.main-menu {
+		top: 69px;
+	}
+	
+	.menu-mobile ul.right {
+		display: none;
+	    position: absolute;
+	    top: -20px;
+	    right: 0px;
+	    background-color: #02c099;
+	    padding: 5px 10px 5px 30px;
+	    z-index: 1;
+	}
+
+	header ul.right li ul {
+		position: relative;
+		display: block;
+	    top: 9px;
+    	padding: 0px 30px 10px 0px;
+	}
+
+	.menu-mobile ul.right li {
+		display: block;
+		margin: 10px 0;
+	}
+
+	.menu-mobile ul.right li a {
+		text-align: right;
+		display: block;
+	}
+
+	.pattern {
+		height: 90%;
 	}
 
 	.bx-wrapper img.desktop {
@@ -859,14 +911,6 @@ footer .line-long {
 
 	.bx-wrapper img.mobile {
 		display: block;
-	}
-
-	.mobile {
-		display: block;
-	}
-
-	.main-menu {
-		top: 50px;
 	}
 
 	.brandbox {
@@ -886,13 +930,8 @@ footer .line-long {
 		width: 75%;
 	}
 
-	#nav-icon2 {
-		top: 0px;
-    	right: 16px;
-	}
-
-	#nav-icon2.open {
-		top: -10px;
+	.header img {
+		height: 150px;
 	}
 
 	.bx-controls-direction {
@@ -900,7 +939,7 @@ footer .line-long {
 	}
 
 	.subtitles {
-		top: 63px;
+		top: 23px;
 	}
 
 	.main-menu .paragraph {
@@ -908,6 +947,11 @@ footer .line-long {
 	    line-height: 21px;
 	    display: inline-block;
 	    font-size: 0.85em;
+	}
+
+	.subtitles.single-header .paragraph {
+		font-size: 1.6em;
+    	line-height: normal;
 	}
 
 	.box-products img {
@@ -927,6 +971,7 @@ footer .line-long {
 	.paragraph {
 	    font-size: 0.9em;
 	    padding-right: 20px;
+	    margin-top: 30px;
 	}
 
 	.btn-border {
@@ -944,6 +989,21 @@ footer .line-long {
 	.bg-green img {
 		margin: 0 auto;
 		display: block;
+	}
+
+	.bg-green .overflow img {
+	    margin-right: 10px;
+	}
+
+	.bg-green .overflow h3 {
+		text-align: left;
+		overflow: hidden;
+	}
+
+	.bg-green .overflow p {
+		text-align: left;
+    	display: block;
+    	overflow: hidden;
 	}
 
 	.bg-green h3 {
@@ -964,11 +1024,57 @@ footer .line-long {
 	}
 
 	.bg-green h3.title-internal {
-		font-weight: 300;
-		font-size: 1em;
-		line-height: 26px;
+	    font-weight: 300;
+    	font-size: 0.8em;
+    	line-height: 17px;
+	}
+	
+	.normas {
+	    display: block;
+	    width: 100%;
+	    margin: 30px 0 100px;
+	    overflow: hidden;
 	}
 
+	.normas li {
+	    display: block;
+	    margin-right: 0px;
+	    float: left;
+	    margin-bottom: 20px;
+	}
+
+	.normas li img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.height {
+	    height: 160px;
+	}
+
+	.mb-60 {
+		margin-bottom: 0;
+	}
+
+	.paragraph-step {
+		padding-bottom: 10px;
+	}
+
+	li.overflow p {
+		overflow: hidden;
+	}
+
+	.pl-30 {
+		padding-left: 0;
+	}
+	
+	input {
+		width: 100%;
+	}
+
+	textarea {
+		width: 100%;
+	}
 
 	footer h4 {
 		margin-top: 25px;

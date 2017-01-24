@@ -8,12 +8,16 @@ $(document).ready(function(){
   		infiniteLoop: true
 	});
 
-	$('.bxslider-header').bxSlider();
+	$('.bxslider-header').bxSlider({
+		infiniteLoop: true
+	});
+	
 	$('.bxslider-empresa').bxSlider();
 	$('.bxslider-fases').bxSlider();
 	
 	$('#nav-icon2').click(function(){
 		$(this).toggleClass('open');
+		$('.menu-mobile ul.right').slideToggle();
 	});
 	
 });
