@@ -838,6 +838,92 @@ footer .line-long {
 	height: 1px;
 }
 
+@media(max-width: 768px){
+
+	header ul.right li:hover ul {
+		z-index: 1;
+	}
+	
+	.subtitles {
+		top: 50px;
+	}
+
+	.main-menu ul.right img {
+		width: 80%;
+	}
+
+	.box-products p {
+	    font-size: 0.95em;
+	    font-weight: 100;
+	    height: auto;
+	}
+
+	.line-dotted {
+		left: 130px;
+	}
+
+	.normas {
+	    display: block;
+	    width: 100%;
+	    margin: 30px 0 100px;
+	    overflow: hidden;
+	}
+
+	.normas li {
+	    display: block;
+	    margin-right: 0px;
+	    float: left;
+	    margin-bottom: 20px;
+	}
+
+	.normas li img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.paragraph-internal {
+		padding-right: 40px;
+	}
+
+	.bg-green p {
+		overflow: hidden;
+	}
+
+	.paragraph-step {
+		margin-bottom: 40px;
+	}
+
+	.bg-green h3.title-internal {
+		font-size: 1em;
+		line-height: normal;
+	}
+
+	.main-menu .paragraph {
+		line-height: 38px;
+	}
+
+	.subtitles.single-header {
+		top: 12px;
+	}
+
+	table p {
+		font-size: 11px;
+	}
+
+	table .bg-green p {
+		font-size: 13px;
+	}
+	
+	.overflow p {
+		overflow: hidden;
+	}
+
+	footer p {
+		font-size: 0.6em;
+	}
+
+}
+
 
 @media(max-width: 576px){
 	
@@ -881,7 +967,6 @@ footer .line-long {
 	    right: 0px;
 	    background-color: #02c099;
 	    padding: 5px 10px 5px 30px;
-	    z-index: 1;
 	}
 
 	header ul.right li ul {
@@ -1027,25 +1112,6 @@ footer .line-long {
 	    font-weight: 300;
     	font-size: 0.8em;
     	line-height: 17px;
-	}
-	
-	.normas {
-	    display: block;
-	    width: 100%;
-	    margin: 30px 0 100px;
-	    overflow: hidden;
-	}
-
-	.normas li {
-	    display: block;
-	    margin-right: 0px;
-	    float: left;
-	    margin-bottom: 20px;
-	}
-
-	.normas li img {
-		display: block;
-		margin: 0 auto;
 	}
 
 	.height {
