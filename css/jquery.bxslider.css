@@ -80,7 +80,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #666;
+	background: transparent;
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
@@ -90,23 +90,25 @@
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	border: 1px solid #fff;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #000;
+	background: #02c099;
+	border: 1px solid #02c099;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/images/controls.png') no-repeat 0 -32px;
+	background: url('../images/controls.png') no-repeat 0 -32px;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url('https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/images/controls.png') no-repeat -43px -32px;
+	background: url('../images/controls.png') no-repeat -43px -32px;
 }
 
 .bx-wrapper .bx-prev:hover {

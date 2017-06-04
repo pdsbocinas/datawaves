@@ -476,6 +476,7 @@ a.box-products:hover h2 {
 .box-products span {
 	width: 50px;
 	height: 50px;
+	display: block;
 }
 
 .box-products span.arrow {
